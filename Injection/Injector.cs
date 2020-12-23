@@ -5,7 +5,7 @@ using System.IO;
 
 namespace BtdAPI_Injector.Injection
 {
-    internal class Injector
+    internal unsafe class Injector
     {
         private string modsDir = $"{Environment.CurrentDirectory}\\Mods";
         public void InjectBtdApiMods()
